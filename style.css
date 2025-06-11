@@ -20,6 +20,7 @@ body {
 header {
   background-color: var(--color4);
   padding: 10px;
+  color: white;
 }
 
 nav ul {
@@ -36,6 +37,7 @@ section {
 footer {
   background-color: var(--color4);
   padding: 10px 10px 10px 10px;
+  color: white;
 }
 
 input[type="text"],
