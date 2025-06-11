@@ -13,4 +13,26 @@ body {
   --color1: darkred;
   --color2: darkgreen;
   --color3: #333;
+  --color4: rgb(100, 100, 100);
+}
+
+header {
+  background-color: var(--color4);
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+section {
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+}
+
+footer {
+  background-color: var(--color4);
+  padding: 10px 10px 10px 10px;
 }
