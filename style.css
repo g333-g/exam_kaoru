@@ -56,3 +56,8 @@ section {
   padding: 15px;
   margin-bottom: 10px;
 }
+
+ul li {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
