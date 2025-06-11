@@ -40,8 +40,42 @@
       </section>
       <section id="contact">
         <h2>Contact</h2>
-        <p>Contact 1...</p>
-        <p>Contact 2...</p>
+        <form>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="e.g. Hanako Suzuki"
+            required
+          /><br />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="e.g. hanako@example.com"
+            required
+          /><br />
+          <label for="subject">Subject:</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="e.g. xxx"
+          /><br />
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="3"
+            placeholder="Write your message here"
+            required
+          ></textarea
+          ><br />
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
       </section>
     </main>
 
