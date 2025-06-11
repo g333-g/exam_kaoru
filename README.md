@@ -1,8 +1,8 @@
-## Name
-kaoru
+## Description
+Practice with HTML, CSS, GitHub
 
-## Project Title
-Personal Portfolio Website
+##Technologies used
+HTML5, CSS, Git
 
-## Brief description
-Task A1: Basic Setup
+##How to view the project
+Open the index.html file.
